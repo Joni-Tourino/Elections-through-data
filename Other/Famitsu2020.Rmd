@@ -5,7 +5,7 @@ output: html_notebook
 
 # Famitsu Sales 2020
 
-The weekly sales are available at different gaming websites such as www.gematsu.com or www.perfectly-nintendo.com but must be transferred into a .xls or .csv file first, and then put the file in the same folder as the R Project.
+The weekly sales are available at different gaming websites such as www.gematsu.com or www.perfectly-nintendo.com but must be transferred into a .xls or .csv file first, and then put the file in the same folder as the R Project. You can download the one I used for this in the GitHub folder.
 
 ##Importing data for the month of September
 
