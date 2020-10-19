@@ -1,0 +1,87 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+# Famitsu Sales 2020
+
+The weekly sales are available at different gaming websites such as www.gematsu.com or www.perfectly-nintendo.com but must be transferred into a .xls or .csv file first, and then put the file in the same folder as the R Project.
+
+##Importing data for the month of September
+
+In order to see what were the games with the highest sales for the month of September, we'll need to import the data for Weeks 36 to 39 (this includes the days from 31 August to 27 September).
+
+*Important*: given that I only want information for the Top 30 and no other data gathered, such as totals or sources, you need to specify what rows and column you want to be imported using: (range = "A1:J31")
+
+```{r}
+library(readxl)
+Week36 <- read_excel("Famitsu_Software_Sales_2020.xlsx", 
+    sheet = "Week 36 Aug 31 - Sept 6 2020", range = "A1:J31")
+View(Famitsu_Software_Sales_2020)
+```
+
+```{r}
+library(readxl)
+Week37 <- read_excel("Famitsu_Software_Sales_2020.xlsx", 
+    sheet = "Week 37 Sept 7 - Sept 13 2020", range = "A1:J31")
+View(Famitsu_Software_Sales_2020)
+```
+
+```{r}
+library(readxl)
+Week38 <- read_excel("Famitsu_Software_Sales_2020.xlsx", 
+    sheet = "Week 38 Sept 14 - Sept 20 2020", range = "A1:J31")
+View(Famitsu_Software_Sales_2020)
+```
+
+```{r}
+library(readxl)
+Week39 <- read_excel("Famitsu_Software_Sales_2020.xlsx", 
+    sheet = "Week 39 Sept 21 - Sept 27 2020", range = "A1:J31")
+View(Famitsu_Software_Sales_2020)
+```
+  
+## Merging the data together
+
+Now that we have the Data for the four weeks of September, we'll need to merge them before adding up the sales for each game.
+
+```{r}
+September2020 <- rbind(Week36,Week37,Week38,Week39)
+```
+
+## Getting rid of useless columns
+
+For a monthly ranking, some columns can be eliminated (such as the weekly rankings or previous ranking), to only keep the minimal information which are "System", "Title", "WeekSales" and even "Publisher". This can be achieved in two ways.
+The first one will create a new dataset:
+
+```{r}
+Famitsu <- September2020[c(3,4,5,7)]
+
+```
+
+Whereas the second will directly eliminate the columns from the "September2020" dataset, but needs more lines of coding:
+
+```{r}
+September2020$Position <- NULL
+September2020$LastWeek <- NULL
+September2020$LastWeeksSales <- NULL
+September2020$ReleaseDate <- NULL
+September2020$Percentagechange <- NULL
+September2020$TotalSales <- NULL
+```
+
+## Using Pivot Table in R
+
+First things first, if you don't have the pivottabler package installed, type in the console: install.packages("pivottabler")
+
+Now we want to create a Pivot Table based on the titles, this will be our Row, and add a tweak given that some titles were realeased in multiple Systems, this will be the Column for the table.
+
+```{r}
+library(pivottabler)
+Famitsupt <- PivotTable$new()
+Famitsupt$addData(Famitsu)
+Famitsupt$addColumnDataGroups("System")
+Famitsupt$addRowDataGroups("Title")
+Famitsupt$defineCalculation(calculationName="TotalSales", summariseExpression="sum(WeekSales)")
+Famitsupt$renderPivot()
+```
