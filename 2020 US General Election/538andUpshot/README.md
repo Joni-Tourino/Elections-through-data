@@ -16,7 +16,7 @@ Here, I'll explain what each column, in the [CSV file](./538_vs_Upshot_error_mar
 - The fourth is the difference between Trump minus Biden
 - The fifth is the the actual result's difference for Donald Trump (if negative, it means he lost the state)
 - The sixth is the difference between columns 4 and 5
-- The Seventh and eight show who FiveThirtyEight predicted to win and who actually won
+- The Seventh and eighth show who FiveThirtyEight predicted to win and who actually won
 - The ninth is the polling difference the New York Times had if their polling was as wrong as 2016
 - The tenth and thirteenth shows if it was accurate
 - The eleventh is to show it more easily if it was in the ±4-point range in a state level
