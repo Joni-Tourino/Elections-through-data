@@ -4,6 +4,7 @@ FiveThirtyEight has a tendency to be quite transparent with their data, and it c
 
 In order to decide if their prediction was correct or not, I went with [Dhrumil Mehta](https://youtu.be/TambSayfCOE?t=404)'s numbers: ±4 percent statewide, and ±3 national.
 At the end of their 2020 Election Forecast, FiveThirtyEight allows the readers to download two sets of data: Polls and Model outputs. The file that was used for the averages was the one with the presidential poll averages, and the final results come from The New York Times. The margin of error, to decide if the prediction was correct or not, comes from FiveThirtyEight and is situated at a 4-point margin at state level.
+To give a fair comparison, the error has be done between the 14-key states calculated by the NYT.
 
 ## What each tab means
 
