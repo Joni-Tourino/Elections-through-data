@@ -1,0 +1,68 @@
+﻿State,Donald J. Trump,Joseph R. Biden Jr.,Diff Trump - Biden,Results Trump,Diff btw poll and result,Prediction Winner,Actual Winner,NYT Polling 2016,Accurate?,Error margin,NYT Polling 2020,Accurate?
+Alabama,57.4,37.8,19.6,25,5.4,Trump,Trump,,,,,
+Alaska,51,43.5,7.5,10,2.5,Trump,Trump,,,,,
+Arizona,46.1,48.7,-2.6,-0.31,2.3,Biden,Biden,1,Yes,0.7,3,Yes
+Arkansas,58.4,36.2,22.2,28,5.8,Trump,Trump,,,,,
+California,32.3,61.6,-29.3,-29,0.3,Biden,Biden,,,,,
+Colorado,41,53.6,-12.6,-14,1.4,Biden,Biden,,,,,
+Connecticut,32,58.4,-26.4,-20,6.4,Biden,Biden,,,,,
+Delaware,34.1,58.7,-24.6,-19,5.6,Biden,Biden,,,,,
+District of Columbia,5.6,90.7,-85.1,-87,1.9,Biden,Biden,,,,,
+Florida,46.7,49.1,-2.4,3,5.4,Biden,Trump,0.9,Yes,3.9,2,No
+Georgia,47.3,48.6,-1.2,-0.25,1,Biden,Biden,0.9,Yes,0.7,2,Yes
+Hawaii,29.2,64.3,-35.1,-29,6.1,Biden,Biden,,,,,
+Idaho,56.2,38.3,17.9,31,13.1,Trump,Trump,,,,,
+Illinois,39,55,-16,-17,1,Biden,Biden,,,,,
+Indiana,52.8,42,10.8,16,5.2,Trump,Trump,,,,,
+Iowa,47.6,46.3,1.3,8,6.7,Trump,Trump,5,Yes,3,1,No
+Kansas,53.8,40.9,12.9,15,2.1,Trump,Trump,,,,,
+Kentucky,55.5,39.7,15.7,26,10.3,Trump,Trump,,,,,
+Louisiana,57.5,37,20.5,19,1.5,Trump,Trump,,,,,
+Maine,40.3,53.3,-13,-9,4,Biden,Biden,,,,,
+Maryland,31.6,63,-31.5,-33,1.5,Biden,Biden,,,,,
+Massachusetts,28.6,64.4,-35.8,-33,2.8,Biden,Biden,,,,,
+ME-1,37.1,57.6,-20.5,-22.8,2.3,Biden,Biden,,,,,
+ME-2,46.2,49,-2.8,7.9,10.7,Biden,Trump,9,Yes,1.1,3,No
+Michigan,43.2,51.2,-8,-3,5,Biden,Biden,4,Yes,1,8,No
+Minnesota,42.6,51.9,-9.2,-7,2.2,Biden,Biden,4,Yes,3,10,Yes
+Mississippi,55.4,39.5,15.9,17,1.1,Trump,Trump,,,,,
+Missouri,51.5,43.6,7.9,15,7.1,Trump,Trump,,,,,
+Montana,49.7,45.3,4.4,16,11.6,Trump,Trump,,,,,
+National,43.4,51.8,-8.5,-4.4,4.1,Biden,Biden,6,Yes,1.6,8,No
+NE-1,49.4,44.5,4.9,15,10.1,Trump,Trump,,,,,
+NE-2,46.1,50,-3.9,-6.5,2.6,Biden,Biden,9,Yes,2.5,5,Yes
+Nebraska,51.7,42.4,9.4,19,9.6,Trump,Trump,,,,,
+Nevada,44.3,49.6,-5.3,-2,3.3,Biden,Biden,8,No,6,6,Yes
+New Hampshire,42.8,53.9,-11.1,-7,4.1,Biden,Biden,7,Yes,0,11,Yes
+New Jersey,37.9,58.4,-20.5,-16,4.5,Biden,Biden,,,,,
+New Mexico,41.8,53.8,-12,-11,1,Biden,Biden,,,,,
+New York,32.8,62.2,-29.4,-22,7.4,Biden,Biden,,,,,
+North Carolina,47.1,48.9,-1.8,1.3,3.1,Biden,Trump,3,Yes,1.7,2,Yes
+North Dakota,55.6,38.6,17,33,16,Trump,Trump,,,,,
+Ohio,47.5,46.8,0.7,8,7.3,Trump,Trump,6,Yes,2,<1,No
+Oklahoma,58.8,36.1,22.6,33,10.4,Trump,Trump,,,,,
+Oregon,37,58.6,-21.6,-16,5.6,Biden,Biden,,,,,
+Pennsylvania,45.6,50.2,-4.6,-1.2,3.4,Biden,Biden,0.9,Yes,0.3,5,Yes
+Rhode Island,31.8,62.9,-31.1,-21,10.1,Biden,Biden,,,,,
+South Carolina,51.6,44.5,7.1,12,4.9,Trump,Trump,,,,,
+South Dakota,54.2,39,15.1,26,10.9,Trump,Trump,,,,,
+Tennessee,54.9,41,13.9,23,9.1,Trump,Trump,,,,,
+Texas,48.6,47.5,1.1,6,4.9,Trump,Trump,4,Yes,2,2,Yes
+Utah,51.6,42.1,9.5,20,10.5,Trump,Trump,,,,,
+Vermont,27.3,66.4,-39,-35,4,Biden,Biden,,,,,
+Virginia,41.8,53.7,-12,-10,2,Biden,Biden,,,,,
+Washington,36.3,59.3,-23.1,-19,4.1,Biden,Biden,,,,,
+West Virginia,61.9,33.5,28.4,39,10.6,Trump,Trump,,,,,
+Wisconsin,43.7,52.1,-8.5,-0.62,7.8,Biden,Biden,4,Yes,3.4,10,No
+Wyoming,62,30.8,31.2,43,11.8,Trump,Trump,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,State margin error:,5.6,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,Key states error:,4.2,,,2.2,,,5.2,
+,,,,,,,,,,,,
+Data collected 2 December 2020,,,,,,,,,,,,
+Source for final results:,https://www.nytimes.com/interactive/2020/11/03/us/elections/results-president.html?searchResultPosition=10,,,,,,,,,,,
+Nebraska 3 is missing,,,,,,,,,,,,
+538's errors:,31 states and 2 districts with a difference higher than 4 points,,,,,,,,,,,
